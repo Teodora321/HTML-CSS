@@ -80,6 +80,21 @@ body {
   background: chocolate;
 }
 
+#showcase {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:0 2rem;
+  background: coral;
+}
+
+#showcase h1{
+color:#fff;
+font-size: 4rem;
+}
 
 
 
