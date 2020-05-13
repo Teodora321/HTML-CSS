@@ -96,7 +96,7 @@ color:#fff;
 font-size: 4rem;
 }
 
-@media(max-width:600px){
+@media(max-width:610px){
   #navbar ul li {
     display: block;
   }
