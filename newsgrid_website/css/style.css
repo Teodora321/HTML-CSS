@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-secondary {
-  background: var(--dark-secondary);
+  background: var(--secondary-color);
   color:#fff
 }
 
@@ -138,6 +138,10 @@ h1, h2, h3, h4, h5, h6 {
 .p-1 { padding: 1.5rem}
 .p-2 { padding: 2rem}
 .p-3 { padding: 3rem}
+
+.l-heading{
+  font-size: 3rem;
+}
 
 .list li{
   padding: .5rem 0;
@@ -266,6 +270,20 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* Articles page */
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: .5rem;
+}
+
+#article .meta .category {
+  margin-top: .5rem ;
 }
 
 /* Footer */

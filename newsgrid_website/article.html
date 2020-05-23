@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" meadia="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Newsgrid |Latest News</title>
 </head>
+
 <body>
-  
+
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="newsgrid" class="logo">
+      <div class="social">
+        <a href="http:/facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http:/twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http:/instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http:/youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="article">
+    <div class="container">
+      <div class="page-container">
+        <article class="card">
+          <img src="./img/articles/ent1.jpg" alt="ent1">
+          <h1 class="l-heading">
+            Lorem ipsum dolor sit amet.
+          </h1>
+          <div class="meta">
+            <small>
+              <i class="fas fa-user"></i> Written by John Doe January 12, 2020
+            </small>
+          </div>
+          <div class="category category-ent">
+            Entertainment
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam saepe sit explicabo maiores ea
+            temporibus cupiditate consequuntur alias vero! Fugiat, placeat rerum dignissimos tempore quidem labore
+            tempora atque distinctio pariatur voluptatem. Sit voluptatem aspernatur, autem fuga officiis minima incidunt
+            dolores iure architecto aut saepe temporibus nobis, fugit sint eaque praesentium.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate fugit deleniti quam ea, qui
+            dignissimos quod esse atque eius omnis sapiente asperiores harum dolorem nulla dolore quaerat impedit
+            possimus itaque alias aut. Perferendis fuga modi praesentium vero labore numquam! Voluptatibus illo dolorum
+            maiores placeat sed saepe soluta commodi expedita laborum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam quis delectus suscipit rem saepe?
+            Nostrum vel, quidem ex similique, animi recusandae explicabo iure iusto, nisi architecto sint consequuntur
+            magnam exercitationem quia fuga voluptatibus minima ut delectus! Debitis eum cumque soluta eaque facere quo
+            quibusdam molestiae obcaecati, non totam culpa perferendis quod eos dolorem hic, assumenda voluptate,
+            deleniti atque nobis? Quidem labore blanditiis ab autem laborum rem eos nobis aliquid! Omnis delectus
+            pariatur animi enim, impedit error perferendis incidunt, commodi veritatis voluptatem fugit in explicabo
+            laborum tenetur ipsum ipsa quae nobis nisi natus et numquam iste id? Vel molestiae eveniet sed quod,
+            officiis quo quas consequatur quaerat natus mollitia possimus explicabo. Unde quos tempore, explicabo
+            provident dolor doloremque consectetur? Ipsum, facere! Dolorum alias autem nostrum vero nesciunt laboriosam
+            adipisci dolores totam placeat corrupti. Itaque ipsum excepturi impedit hic reiciendis ratione magni
+            consequuntur, ipsam illum animi, nam laborum! Et, atque eaque?</p>
+        </article>
+        <aside id="categories" class="card">
+          <h2>Categories</h2>
+          <ul class="list">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Sports</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Entertainment</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Technology</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Shopping</a></li>
+          </ul>
+        </aside>
+        <aside class="card bg-secondary">
+          <h2>Join Our Club</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corrupti!
+          </p>
+          <a class="btn btn-dark btn-block" href="#">Join Now</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <div class="footer-container py-2">
+      <div>
+        <img src="./img/logo_light.png" alt="Newsgrid">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium recusandae expedita maxime
+          exercitationem tempore enim minus quia quod est obcaecati?</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <form>
+          <input type="email" placeholder="Enter your email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, blanditiis?</p>
+        <a class="btn btn-secondary" href="#">Join now</a>
+      </div>
+      <div>Copyright &copy; 2020, All rights reserved</div>
+    </div>
+  </footer>
 </body>
+
 </html>
